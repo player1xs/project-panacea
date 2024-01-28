@@ -12,7 +12,8 @@ export default function Home() {
           <div className='home-left'>
             <p className='home-left-subtitle'>Full-Stack Developer</p>
             <div className='home-left-title'>
-              <p>Make it Work. Make it Right. Make it Fast.</p>
+              <p>First, solve the problem</p>
+              <p>Then, write the code</p>
             </div>
             <div className='home-left-info'>
               <p>I create front- and back-end applications,</p>
