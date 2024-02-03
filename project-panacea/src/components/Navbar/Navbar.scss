@@ -14,6 +14,7 @@ nav {
 .logo{
   display: flex;
   font-size: 30px;
+  text-decoration: none;
 }
 
 .logo-span {
@@ -75,6 +76,7 @@ nav {
   align-items: center;
   margin-left: 50px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .navbar-insta, 
@@ -82,13 +84,24 @@ nav {
   filter: invert(1);
   width: 20px;
   margin-right: 10px;
+  height: 35px;
+  color: white;
+}
+
+
+.navbar-social-text {
+  color: #4cf1fd;
+}
+.navbar-social-text:hover {
+  color: white;
 }
 
 .navbar-email {
-  padding: 15px;
+  // padding: 15px;
   border-radius: 50%;
   background-color: #333438;
-  width: 55px;
+  width: 45px;
+  height: 25px;
   margin-left: 50px;
   cursor: pointer;
   transition: 0.1s ease;

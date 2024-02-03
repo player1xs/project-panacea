@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import '../Navbar/Navbar.scss'
 
 
@@ -6,7 +7,7 @@ import { TfiEmail } from "react-icons/tfi";
 import { VscGithub } from "react-icons/vsc";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseCircleOutline } from "react-icons/io5";
-import { FaInstagram } from "react-icons/fa6";
+import { AiFillLinkedin } from "react-icons/ai";
 
 
 
@@ -28,14 +29,14 @@ export default function Nav() {
   return (
     <div className='Navbar'>
       <nav>
-        <div className='logo'>
-          <span className='logo-span'>Benedict</span>Norton
-        </div>
+        <Link to='/' className='logo'>
+          <span className='logo-span'>Project</span>Panacea
+        </Link>
         {( toggleMenu || screenWidth > 1024) && (
           <ul className='list'>
-            <li className='links'><a href='~about'>About</a></li>
-            <li className='links'><a href='~projects'>Projects</a></li>
-            <li className='links'><a href='~contact'>Contact</a></li>
+            <li className='links'><Link to="/profile">About</Link></li>
+            <li className='links'><Link to="/library">Projects</Link></li>
+            <li className='links'><Link to="/contact">Contact</Link></li>
           </ul>
         )}
         <div className='menuIcons'>
@@ -52,16 +53,16 @@ export default function Nav() {
           )}
         </div>
         <div className='navbar-socials'>
-          <div className='navbar-instaDiv'>
-            <FaInstagram className='navbar-insta'/>
-            <p>Gram</p>
-          </div>
-          <div className='navbar-githubDiv'>
-            <VscGithub className='navbar-github'/>
-            <p>Github</p>
-          </div>
+          <Link to="www.linkedin.com/in/benedict-norton" className='navbar-instaDiv'>
+            <AiFillLinkedin className='navbar-insta' style={{ fill: 'Black' }}/>
+            <p className="navbar-social-text">LinkedIn</p>
+          </Link>
+          <Link to="https://github.com/player1xs" className='navbar-githubDiv'>
+            <VscGithub className='navbar-github' style={{ fill: 'black' }}/>
+            <p className="navbar-social-text">Github</p>
+          </Link>
           <a href='~contact'>
-            <TfiEmail className='navbar-email'/>
+            <TfiEmail className='navbar-email' style={{ fill: 'white' }}/>
           </a>
 
         </div>

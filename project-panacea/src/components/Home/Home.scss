@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: space-around;
   max-width: 1440px;
-  padding-top: 120px;
+  padding-top: 90px;
 }
 
 .home-left {
@@ -104,7 +104,7 @@
   border-radius: 50%;
   height: 8px;
   width: 8px;
-  z-index: 2;
+  z-index: 4;
 }
 
 .home-right-circle {
@@ -122,8 +122,8 @@
   position: absolute;
   width: 120px;
   height: 120px;
-  bottom: 300px;
-  left: 0;
+  bottom: 100px;
+  left: 0px;
   z-index: 4;
 }
 
@@ -144,7 +144,7 @@
   position: absolute;
   width: 150px;
   height: 150px;
-  bottom: 100px;
+  bottom: 450px;
   z-index: 4;
 }
 .home-right-node > img {
@@ -156,8 +156,8 @@
   width: 100px;
   height: 100px;
   top: 150px;
-  right: 30px;
-  z-index: 2;
+  right: 10px;
+  z-index: 4;
 }
 
 .home-right-python > img {
@@ -209,9 +209,10 @@
     width: 500px;
   }
   .home-right-node {
-    width: 150px;
-    height: 150px;
-    right: -10px;
+    width: 110px;
+    height: 110px;
+    right: 350px;
+    top: 50px;
   }
   .home-right-react {
     width: 100px;
@@ -289,14 +290,14 @@
     width: 80px;
     height: 80px;
     bottom: 80px;
-    right: 0;
+    right: 400px;
   }
   .home-right-node > img {
     width: 40px;
   }
   .home-right-python {
-    width: 70%;
-    height: 70%;
+    width: 70px;
+    height: 70px;
     top: 120;
     right: 50px;
   }
@@ -319,6 +320,11 @@
   }
   .home-miniInfo {
     display: none;
+  }
+
+  .home-right-node {
+    left: 15px;
+    top: 200px;
   }
   .home-right-python {
     top: 80px;
