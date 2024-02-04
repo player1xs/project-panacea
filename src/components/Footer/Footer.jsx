@@ -1,6 +1,6 @@
 
 
-import '../Footer/Footer.scss'
+import './Footer.scss'
 
 import { FaInstagram } from "react-icons/fa6";
 import { VscGithub } from "react-icons/vsc";

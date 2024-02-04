@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import '../Navbar/Navbar.scss'
+import './Navbar.scss'
 
 
 // import { TfiEmail } from "react-icons/tfi";
