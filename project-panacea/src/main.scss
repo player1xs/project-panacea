@@ -1,0 +1,22 @@
+@import './components/Navbar/Navbar.scss';
+@import './components/Footer/Footer.scss';
+@import './components/Home/Home.scss';
+@import './components/About/About.scss';
+@import './components/Projects/Projects.scss';
+@import './components/Skills/Skills.scss';
+@import './components/Library/Library.scss';
+@import './components/Contact/Contact.scss';
+@import './components/ErrorPage/ErrorPage.scss';
+@import './components/Email/Email.scss';
+@import './components/Personal/Personal.scss';
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}

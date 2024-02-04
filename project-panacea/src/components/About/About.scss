@@ -1,0 +1,138 @@
+.About {
+  width: 100%;
+  background: #25262a;
+  padding: 150px 150px 50px 150px;
+  display: flex;
+  gap: 5rem;
+}
+
+.about-left {
+  width: 50%;
+}
+
+.about-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.about-card {
+  padding: 50px 70px;
+  border-radius: 10px;
+  background-color: #2d2e31;
+  filter: drop-shadow(10px 0 20px black);
+}
+
+.about-card:hover {
+  filter: drop-shadow(0 0 2px black);
+}
+
+.about-card:hover .card-title {
+  color: #4cf1fd;
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 35px;
+}
+
+.card-icon {
+  width: 70px;
+  height: 33px;
+}
+
+.card-desc {
+  color: #9797a1;
+  padding: 10px 0px 30px 0px;
+}
+
+.card-link {
+  text-transform: uppercase;
+}
+
+.about-right {
+  width: 50%;
+}
+
+.about-subtitle {
+  color: #9797a1;
+  font-size: 22px;
+}
+
+.about-title {
+  font-size: 60px;
+  padding: 50px 0px;
+}
+
+.about-info {
+  font-style: italic;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.about-desc {
+  color: #9797a1;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+// -----------------------------------------------------------------------------------------------------------
+@media (max-width: 1024px) {
+  .About{
+    height: unset;
+    padding: 100px 40px;
+  }
+  .about-title {
+    font-size: 50px;
+  }
+  .about-info {
+    font-size: 25px;
+    padding-bottom: 20px;
+  }
+  .about-desc {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .about-card {
+    padding: 30px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .About{
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .About {
+    flex-direction: column-reverse;
+    gap: 3rem;
+    padding: 100px 20px;
+  }
+  .about-right {
+    width: unset;
+  }
+  .about-left {
+    width: unset;
+  }
+  .about-cards {
+    overflow-x: scroll;
+    flex-direction: row;
+    padding: 30px 40px;
+  }
+  .about-cards::-webkit-scrollbar {
+    display: none;
+  }
+  .about-card {
+    padding: 30px;
+  }
+  .card-top {
+    width: 250px;
+  }
+}
