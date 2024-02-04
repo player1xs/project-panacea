@@ -3,17 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://player1xs.github.io/project-panacea",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.2",
     "dotenv": "^16.4.1",
+    "gh-pages": "^6.1.1",
     "react-icons": "^5.0.1",
     "react-parallax-tilt": "^1.7.209",
     "react-router-dom": "^6.21.3",

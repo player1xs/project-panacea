@@ -40,7 +40,7 @@ export const ContactUs = () => {
             {/* <label className="label-text">Email</label> */}
             <input type="email" placeholder="Email" name="user_email"  required className="form-details"/>
             {/* <label className="label-text">Message</label> */}
-            <textarea name="message"  placeholder="Message,,," className="form-details-message"/>
+            <textarea name="message"  placeholder="Message..." className="form-details-message"/>
             <input type="submit" value="Send" />
           </div>
         </form>

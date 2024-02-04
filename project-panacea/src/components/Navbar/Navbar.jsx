@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import '../Navbar/Navbar.scss'
 
 
-import { TfiEmail } from "react-icons/tfi";
+// import { TfiEmail } from "react-icons/tfi";
 import { VscGithub } from "react-icons/vsc";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseCircleOutline } from "react-icons/io5";
@@ -61,9 +61,9 @@ export default function Nav() {
             <VscGithub className='navbar-github' style={{ fill: 'black' }}/>
             <p className="navbar-social-text">Github</p>
           </Link>
-          <a href='~contact'>
+          {/* <a href='~contact'>
             <TfiEmail className='navbar-email' style={{ fill: 'white' }}/>
-          </a>
+          </a> */}
 
         </div>
       </nav>

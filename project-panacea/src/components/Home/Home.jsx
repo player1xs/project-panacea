@@ -40,7 +40,7 @@ export default function Home() {
           <div className='home-miniInfo' data-aos='fade-up' data-aos-delay='1500'>
             <p className='info-number'>1st</p>
             <p className='info-desc'>year of experience</p>
-            <p className='info-number'>4</p>
+            <p className='info-number'>5</p>
             <p className='info-desc'>projects completed</p>
           </div>
         </div>
