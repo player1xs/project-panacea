@@ -1,15 +1,16 @@
 .Footer {
   width: 100%;
-  background-color: #25262a;
-  padding-top: 100px;
+  background-color: #1e1f21;
+  // padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .footer-rights {
-  display: fkex;
+  display: flex;
   align-items: baseline;
+  padding: 10px;
 }
 
 .footer-name{
@@ -35,6 +36,16 @@
   margin-left: 20px;
   cursor: pointer;
 }
+
+.footer-contact-link {
+  padding-right: 100px;
+  color:#9797a1;
+  text-decoration: none;
+}
+.footer-contact-link:hover {
+  color: aqua;
+}
+
 //---------------------------------------------------------------------------------------------------------
 @media screen and (max-width: 1024px) {
   .footer-socials{

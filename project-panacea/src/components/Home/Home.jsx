@@ -16,8 +16,8 @@ export default function Home() {
           <div className='home-left' data-aos='fade-right' data-aos-delay='500'>
             <p className='home-left-subtitle'>Full-Stack Developer</p>
             <div className='home-left-title'>
-              <p>If you can read this...</p>
-              <p>Thank a Software Developer</p>
+              <p>"Talk is cheap</p>
+              <p>Show me the Code" <span className="home-left-author">- Linus Torvald</span></p>
             </div>
             <div className='home-left-info'>
               <p>I create front- and back-end applications,</p>

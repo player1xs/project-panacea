@@ -34,9 +34,9 @@ export default function Nav() {
         </Link>
         {( toggleMenu || screenWidth > 1024) && (
           <ul className='list'>
-            <li className='links'><Link to="/profile">About</Link></li>
+            <li className='links'><Link to="/profile">About Me</Link></li>
             <li className='links'><Link to="/library">Projects</Link></li>
-            <li className='links'><Link to="/contact">Contact</Link></li>
+            
           </ul>
         )}
         <div className='menuIcons'>
@@ -53,7 +53,7 @@ export default function Nav() {
           )}
         </div>
         <div className='navbar-socials'>
-          <Link to="www.linkedin.com/in/benedict-norton" className='navbar-instaDiv'>
+          <Link to="https://linkedin.com/in/benedict-norton" className='navbar-instaDiv'>
             <AiFillLinkedin className='navbar-insta' style={{ fill: 'Black' }}/>
             <p className="navbar-social-text">LinkedIn</p>
           </Link>
